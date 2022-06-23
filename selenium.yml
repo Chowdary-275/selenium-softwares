@@ -1,0 +1,8 @@
+---
+- name: prepare selenium
+  hosts: localhost
+  #user: root
+  #sudo: yes
+  roles:
+    - java
+    - selenium
