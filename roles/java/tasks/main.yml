@@ -1,1 +1,3 @@
-
+---
+- name: install java
+  apt: name=openjdk-17-jdk state=present
